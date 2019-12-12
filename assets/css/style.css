@@ -1,0 +1,76 @@
+body {
+    color: #ffffff;
+    border-color: #ddddd;
+    box-sizing: border-box;
+    margin-left:auto;
+    margin-right: auto;
+}
+    
+#container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: ;
+
+}
+
+
+#logo {
+    background: #4aaaa5;
+    border: 1px solid #4aaaa5;
+    float: left;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+}
+
+#main-menu {
+        float: right;
+        border-color:#cccccc ;  
+        background: #ffffff;
+        position: relative;
+
+}
+
+#aboutme {
+    align-content:space-between ;
+    text-align: justify;
+    height: 700px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-top: 20px;
+
+
+}
+
+#topheader {
+    clear:both;
+    border-color:#cccccc ;  
+    background: #ffffff;
+    Height: 100px;
+    width:960px;
+    z-index=-2;
+
+}
+
+h1 {
+    
+}
+ 
+h2 {
+    color: #4aaaa5;
+    background: #ffffff;
+    border-color: #cccccc;
+}
+
+p {
+    color: #777777;
+    text-align: initial;
+
+}
+
+footer {
+    position: sticky;
+
+
+}
