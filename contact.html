@@ -14,12 +14,10 @@
 </head>
 <body>
     
-        <div id="container">
-            <!--Logo with name will go on top-->
-            <div id="topheader">
-                <section id="logo">   
+        <div id="topheader">
+            <section id="logo">   
                 <h1>Mariana Bromfield</h1>
-                </section>
+            </section>
         
             <nav>
                 <ul id="main-menu">
@@ -30,8 +28,22 @@
             </nav>
             </div>
 
-            <div id="content">
+            <div id="contact">
              <h2>Contact</h2>
+                <div>
+                    <form action="/action_page.php">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="firstlastname" placeholder="John Smith">
+                  
+                      <label for="email">Email</label>
+                      <input type="text" id="email" name="address" placeholder="example@gmail.com">
+                      <label for="message">Message</label>
+                      <input type="text" id="message" name="messageinput" placeholder="">
+                      <input type="submit" value="Submit"> 
+                      
+                      <!--<button>Submit</button> !-->
+                    </form>
+                </div>
             </div>
         <footer>
             copyright &copy;
