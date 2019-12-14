@@ -12,17 +12,19 @@ body {
     width: auto;
     padding:0;
     margin:0;
+    
 }
    
 #topheader {
     /*position: relative;*/
     clear:both;
-    border: 1px solid #cccccc;  
+    border-bottom: 1px solid #cccccc;  
     background: #ffffff;
     Height: 100px;
     width:auto;
     z-index: -2;
     font-family: 'Georgia', Times, Times New Roman, serif;*/
+    
  }
 
 #logo {
@@ -42,12 +44,24 @@ body {
     padding-right: 10px;
 }
 
+/*need to style table*/
 #main-menu {
         float: right;
         border-color:#cccccc ;  
         background: #ffffff;
-        /*position: relative;*/
+        position: relative;
+        width: 300px;
+        display: table;
+        border-collapse: separate; 
+        color: #cccccc;
+        text-align: center;                
 }
+
+/*#main-menu:hover {
+    color: blue;
+}*/
+
+
 
 #aboutme {
     align-content:center;
@@ -91,9 +105,10 @@ body {
     margin-top: 40px;
     width: 960px;
     margin-bottom: 80px;
-    line-height: 100% ;
+    /*line-height: 100% ;*/
     margin-left: auto;
     margin-right:auto;
+    /*position: relative;*/
 }
  
 h2 {
@@ -117,7 +132,7 @@ p {
 }
 
 footer {
-    position:sticky; /*make footer sticky*/
+    position:sticky; /* need to make footer sticky*/
     background: #666666;
     width: auto;
     text-align: center;
@@ -126,6 +141,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 20px;  
     border-top: 8px solid #4aaaa5;
+    clear: both;
 }
 
 #bio-image {
@@ -134,7 +150,6 @@ footer {
     height: 200px;
     margin-right: 20px;
     margin-left: 20px;
-
 }
 
 input[type=text], select {
@@ -176,14 +191,140 @@ input [type=submit], #message {
 }
 
 #portfolio-icons {
-    height:600px;
+    height:500px;
+    /*position: relative;*/
+    overflow: hidden;
+   
 }
 
 .portfolio-pics {
-    height: 200px;
-    width: 200px;
-    float: left;
+    height:480px;
+    width: 925px;
+    /*float: left;
+    /*align-content: left;*/
+    margin-left: 20px;
+    /*position: relative;*/
+    overflow: hidden;
 }
     
 
-  
+/*need to position images and place labels elements with names on top
+of images*/
+
+#porfolio-image1 {
+    position: fixed;
+    float: left;
+    margin-left:20px;
+    margin-right: 20px;
+    width: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#portfolio-image2 {
+    position: absolute;
+    float: left;
+    clear: right;
+    height: 125px;
+    width: 125px;
+}
+
+#porfolio-image3 {
+    position: fixed;
+    float: left;   
+    width: 125px;
+    height: 125px;
+}
+
+#portfolio-image4 {
+    position: relative;
+    float: left;
+    clear: right;
+    margin-top:0;
+    margin-left: 0;
+}
+
+#portfolio-image5 {
+    position: absolute;
+    float: left;
+    clear: both;
+    margin-left: auto;
+
+}
+
+.text-block {
+    background: #4aaaa5;
+    color: white; 
+    text-align: center;
+    width: 125px;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    border-left: 0;
+    border-right:0;
+    height: 50px;
+    /*bottom:20px;
+    /*right: 20px;
+}*/
+
+
+.text-block2 {
+    background: #4aaaa5;
+    color: white; 
+    text-align: center;
+    width: 125px;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    border-left: 0;
+    border-right:0;
+    height: 50px;
+    /*bottom:20px;
+    /*right: 20px;*/
+}
+
+.text-block3 {
+    background: #4aaaa5;
+    color: white; 
+    text-align: center;
+    width: 125px;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    border-left: 0;
+    border-right:0;
+    height: 50px;
+    /*bottom:20px;
+    /*right: 20px;*/
+}
+
+.text-block4 {
+    background: #4aaaa5;
+    color: white; 
+    text-align: center;
+    width: 125px;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    border-left: 0;
+    border-right:0;
+    height: 50px;
+    /*bottom:20px;
+    /*right: 20px;*/
+}
+
+
+.text-block5 {
+    background: #4aaaa5;
+    color: white; 
+    text-align: center;
+    width: 125px;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    border-left: 0;
+    border-right:0;
+    height: 50px;
+    /*bottom:20px;
+    /*right: 20px;*/
+}
